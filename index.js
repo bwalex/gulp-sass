@@ -160,9 +160,4 @@ gulpSass.logError = function logError(error) {
   this.emit('end');
 };
 
-//////////////////////////////
-// Store compiler in a prop
-//////////////////////////////
-gulpSass.compiler = require('node-sass');
-
 module.exports = gulpSass;
